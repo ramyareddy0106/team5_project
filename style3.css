@@ -1,0 +1,52 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url('bg.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Login card */
+.card {
+  border: none;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.95); 
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  width: 300px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Input styling */
+.form-control {
+  border-radius: 10px;
+  font-size: 14px;
+  padding: 10px;
+}
+
+/* Button styling */
+.btn-dark {
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-dark:hover {
+  background-color: #343a40;
+  transform: scale(1.03);
+}
