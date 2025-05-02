@@ -1,0 +1,46 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    background-image:url("Sales.png");
+    background-size:98%;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+  }
+  
+  /* Navbar Customization */
+  .navbar {
+    background-color: #111 !important;
+    padding: 15px 30px;
+  }
+  
+  .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #fff !important;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #ddd !important;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: 0.3s;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #fff !important;
+    text-decoration: underline;
+  }
+  main {
+    padding: 40px;
+    color: #fff;
+  }
