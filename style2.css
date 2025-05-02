@@ -1,0 +1,46 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #1e1e1e, #444);
+  color: white;
+  text-align: center;
+}
+
+/* Button styling */
+button.btn-dark {
+  padding: 12px 28px;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+button.btn-dark:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+/* Optional: Add a fade-in effect */
+body {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+body {
+  background-image: url("opening.jpg");
+  background-size:90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  font-family: sans-serif;
+}
