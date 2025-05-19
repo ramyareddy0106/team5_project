@@ -17,7 +17,6 @@ body {
   align-items: center;
 }
 
-/* Login card */
 .card {
   border: none;
   border-radius: 15px;
@@ -31,14 +30,12 @@ body {
   transform: translateY(-5px);
 }
 
-/* Input styling */
 .form-control {
   border-radius: 10px;
   font-size: 14px;
   padding: 10px;
 }
 
-/* Button styling */
 .btn-dark {
   border-radius: 10px;
   padding: 10px;
