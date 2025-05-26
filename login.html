@@ -24,7 +24,6 @@
   <script>
     function handleLogin(e) {
       e.preventDefault();
-      // Simulate login success
       const params = new URLSearchParams(window.location.search);
       const redirect = params.get("redirect") || "home.html";
       alert("Login successful!");
