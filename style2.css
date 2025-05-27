@@ -1,4 +1,4 @@
-/* General Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +12,6 @@ body {
   text-align: center;
 }
 
-/* Button styling */
 button.btn-dark {
   padding: 12px 28px;
   font-size: 1.2rem;
@@ -26,7 +25,6 @@ button.btn-dark:hover {
   border: 1px solid black;
 }
 
-/* Optional: Add a fade-in effect */
 body {
   animation: fadeIn 1s ease-in-out;
 }
